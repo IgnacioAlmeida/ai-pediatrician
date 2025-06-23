@@ -91,6 +91,9 @@ The frontend will be available at `http://localhost:3000`
 - `POST /ask` - Submit a question and get an answer
   - Body: `{"question": "Your question here"}`
   - Response: `{"answer": "The doctor's response"}`
+- `POST /add_context` - Adds context about the babies to the knowledge base
+  - Body: `{"mia_context": "Context for Mia", "luna_context": "Context for Luna"}`
+  - Response: `{"message": "Context added successfully"}`
 
 ## Project Structure
 
